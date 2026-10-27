@@ -22,7 +22,7 @@ int main(){
     printf("Enter the unit price of the product \n");
     scanf("%2f",&price);
 
-    printf("\n\n-------INVOICE------- \n");
+    printf("\n\n-------INVOICE-------e\n");
     printf("%s    price : %2f \n",name,price);
 
     float subTotal = price*quantity;
