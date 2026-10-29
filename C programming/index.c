@@ -1,6 +1,10 @@
 #include <stdio.h>
 
 int main() {
-    printf("Hello, World!\n");
-    return 0;
+    int a = 5 ;
+    printf("%d \n",a);
+    int b = a++ ;
+    printf("%d \n",b);
+    int c = ++a;
+    printf("%d " , c);
 }
